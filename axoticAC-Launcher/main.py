@@ -115,8 +115,8 @@ def getProccess():
             print("eine pid ist nicht mehr gleich")
             return
 
-getProccess()
-# steamid = getSteamID()
-# ip = getIP()
-# installPath = getInstallPath()
-# setInterval(scanner, 10)
+# getProccess()
+steamid = getSteamID()
+ip = getIP()
+installPath = getInstallPath()
+setInterval(scanner, 10)
