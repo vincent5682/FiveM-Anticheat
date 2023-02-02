@@ -35,7 +35,7 @@ def scanner():
     else:
         print("Cheat erkannt!")
 
-    response = requests.post('http://45.157.235.201:8000/scan', json={'steamid': steamid, 'ip': ip, 'verify': verified})
+    response = requests.post('http://IP:8000/scan', json={'steamid': steamid, 'ip': ip, 'verify': verified})
 
 
 def getInstallPath():
@@ -53,7 +53,7 @@ def getSteamID():
 
 
 def getIP():
-    return urllib.request.urlopen('http://45.157.235.201:8000/ip').read().decode('utf8').replace('"', '')
+    return urllib.request.urlopen('http://IP:8000/ip').read().decode('utf8').replace('"', '')
 
 
 def getRegistryEntry(path: str, keyName: str):
