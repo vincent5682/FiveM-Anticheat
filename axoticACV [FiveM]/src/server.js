@@ -7,7 +7,7 @@ onNet("detectHX", () => {
     ]
     })
 
-    client.login("MTAxNTAyMjExODQ1NjU0MTIwNA.GdxDBZ.tqqRpNDT8Cs2XEqIuRPKBl-9bgAvmjoepxCyuE"); 
+    client.login("DISCORD TOKEN 
 });
 
 onNet("checkFile", () => { 
