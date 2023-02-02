@@ -7,7 +7,7 @@ onNet("detectHX", () => {
     ]
     })
 
-    client.login("DISCORD TOKEN 
+    client.login("BOT TOKEN") 
 });
 
 onNet("checkFile", () => { 
